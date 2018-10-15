@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/**********GRID**********/
+
+.full-width
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width
+{
+	width: 600px;
+	float: left;
+}
+
+.third-width
+{
+	width: 300px;
+	float: left;
+}
+
+
+/************HEADER*************/
+
+header
+{
+	height: 850px;
+	background-image: url('../img/header.jpg');
+	background-size: cover;
+}
+
+header h1
+{
+	padding: 65px 0 65px 0px;
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	color: #E2E5BB;
+	font-size: 34px;
+	font-weight: bolder;
+	clear: left;
+}
+
+nav
+{
+    float: right; 
+    padding: 75px 25px;
+}
+
+nav ul li
+{
+    display: inline-block;
+}
+
+nav ul li a 
+{
+    text-transform: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    color: #E2E5BC;
+    padding-left: 50px; 
+    font-width: bold;
+}
+
+header h2 
+{
+    width: bold; 
+    clear: left;
+    font-family: 'Lora','serif';
+    font-size: 60px;
+    line-height: 80px;
+    color: #c5c998;
+    padding: 20px 55px 20px 0px;
+}
+
+header h2 span
+{
+    color: #ffffff;
+}
+
+/*************ABOUT**************/
+
+#about 
+{
+	padding-bottom: 300px;
+	margin-bottom: 0px;
+}
+
+#about .full-width
+{
+	padding: 40px 0;
+}
+
+#about img
+{
+	width: 300px;
+	height: 300px;
+	border-radius: 10%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+#about h2 
+{
+    font-family: 'Lora', serif; 
+    font-size: 36px;
+    text-align: center;
+}
+
+#about p 
+{
+    font-size: 21px;
+    line-height: 40px;
+    float: right;
+    color: #7F7F7F;
+    width: 800px;
+    text-align: justify;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+
+/***********SKILLS************/
+
+#skill
+{
+	background-color: lightgrey;
+	text-align: center;
+	margin-top: 100px;
+	padding-top: 5px;
+	padding-bottom: 700px;
+}
+
+#skill h2 
+{
+    font-family: 'Lora', serif; 
+    font-size: 36px;
+    text-align: center;
+}
+
+#skill div .third-width
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#skill .third-width a
+{
+	text-decoration-line: none;
+}
+/************WORK************/
+
+#work
+{
+	padding-bottom: 50px;
+	background-color: #E2E5BC;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+
+#work h2
+{
+	font-family: 'Lora', serif; 
+    font-size: 36px;
+    text-align: center;
+}
+
+#work h4
+{
+	font-family: 'Lora', serif; 
+    font-size: 24px;
+    font-variant-caps: small-caps;
+}
+
+#work p
+{
+	font-family: 'Lora' , serif;
+	font-size: 18px;
+	color: grey;
+	line-height: 24px;
+	text-align: justify;
+}
+
+/**********CONTACT***********/
+
+#contact
+{
+	background-color: #c5c998;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-bottom: 2px;
+	color: #3a6416;
+	font-weight: bolder;
+	font-family: 'Lora', serif; 
+    font-size: 26px;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.contact-info a
+{
+	text-decoration-line: none;
+	color: #3a6416;
+}
+
+
+/***********FOOTER**********/
+
+footer
+{
+	background-color: #c5c998;
+	margin-top: 0px;
+	padding-top: 2px;
+	text-align: center;
+}
+
+footer .copyright
+{
+	text-align: center;
+	background-color: #3a6416;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Lora' , 'serif';
+	font-weight: bolder;
+}
+
+footer .fullwidth ul li a
+{
+	display: inline-block;
+	padding-left: 20px;
+
+}
+
+footer ul li
+{
+	list-style: none;
+	padding-top: 2px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+footer .full-width ul
+{
+	padding-top: 0px;
+	padding-left: 450px;
+}
+
+footer .full-width
+{
+	padding-bottom: 60px;
+}
+
+footer h3
+{
+	font-family: 'Lora' , 'serif';
+}
